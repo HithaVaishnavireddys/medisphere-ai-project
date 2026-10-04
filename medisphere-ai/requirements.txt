@@ -1,0 +1,9 @@
+fastapi>=0.110
+uvicorn[standard]>=0.29
+pydantic>=2.6
+pandas>=2.1
+numpy>=1.26
+scikit-learn>=1.4
+pillow>=10.0
+pytesseract>=0.3.10     # needs the tesseract-ocr system package for Document AI image reading
+cryptography>=42.0      # optional: field-level encryption of phone and date of birth

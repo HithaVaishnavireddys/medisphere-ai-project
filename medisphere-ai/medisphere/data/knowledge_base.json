@@ -1,0 +1,268 @@
+[
+ {
+  "id": "kb-chest-pain",
+  "title": "Chest pain: red flags for acute coronary syndrome",
+  "category": "Cardiology",
+  "source": "Clinical guideline summary",
+  "text": "Chest pressure, tightness or heaviness lasting more than a few minutes is a possible heart attack. Features that raise concern: pain spreading to the left arm, jaw or back, sweating, nausea, breathlessness and fainting. Call emergency services immediately and do not drive yourself. Clinicians obtain a 12-lead ECG within 10 minutes of arrival and measure troponin. Aspirin may be given by clinicians unless contraindicated."
+ },
+ {
+  "id": "kb-stroke",
+  "title": "Stroke recognition: FAST and time-critical treatment",
+  "category": "Neurology",
+  "source": "Clinical guideline summary",
+  "text": "Use FAST: Face drooping, Arm weakness, Speech difficulty, Time to call emergency services. Sudden numbness, confusion, vision loss, severe headache or loss of balance also suggest stroke. Treatment is time-critical: intravenous thrombolysis is considered within 4.5 hours of symptom onset and thrombectomy up to 24 hours in selected patients after urgent brain imaging. Note the exact time the patient was last seen well."
+ },
+ {
+  "id": "kb-sepsis",
+  "title": "Sepsis recognition and first-hour care",
+  "category": "Critical Care",
+  "source": "Clinical guideline summary",
+  "text": "Suspect sepsis when infection is accompanied by organ dysfunction. The qSOFA screen scores one point each for respiratory rate 22 or more, altered mentation and systolic blood pressure 100 or less; two or more points signals high risk. First-hour actions: measure lactate, take blood cultures, give broad-spectrum antibiotics and start intravenous crystalloid for hypotension or raised lactate. Reassess frequently and escalate to critical care."
+ },
+ {
+  "id": "kb-news2",
+  "title": "NEWS2 early warning score and escalation",
+  "category": "Critical Care",
+  "source": "Clinical guideline summary",
+  "text": "The National Early Warning Score 2 aggregates respiratory rate, oxygen saturation, supplemental oxygen, systolic blood pressure, pulse, consciousness and temperature. A total of 0 to 4 is low risk, 5 to 6 is medium risk needing urgent clinician review, and 7 or more is high risk needing emergency assessment by a critical care team. A single parameter scoring 3 also triggers urgent review."
+ },
+ {
+  "id": "kb-hypertension",
+  "title": "Hypertension: categories and management",
+  "category": "Cardiology",
+  "source": "Clinical guideline summary",
+  "text": "Adult blood pressure categories: normal below 120/80 mmHg, elevated 120-129 systolic with diastolic below 80, stage 1 hypertension 130-139 or 80-89, stage 2 hypertension 140/90 or higher. A reading above 180/120 with symptoms such as chest pain, breathlessness, confusion or severe headache is a hypertensive emergency. Diagnosis needs repeated measurements. Lifestyle measures include salt reduction, weight loss, exercise and limiting alcohol."
+ },
+ {
+  "id": "kb-diabetes",
+  "title": "Type 2 diabetes: diagnosis and first-line care",
+  "category": "Endocrinology",
+  "source": "Clinical guideline summary",
+  "text": "Diabetes is diagnosed by fasting plasma glucose of 126 mg/dL or more, HbA1c of 6.5 percent or more, a 2-hour OGTT glucose of 200 mg/dL or more, or random glucose of 200 mg/dL or more with classic symptoms. Prediabetes is HbA1c 5.7-6.4 percent or fasting glucose 100-125 mg/dL. Metformin is usually first-line therapy alongside diet, activity and weight management. Annual screening covers eyes, kidneys, feet and cardiovascular risk."
+ },
+ {
+  "id": "kb-hypoglycemia",
+  "title": "Hypoglycaemia: recognition and the rule of 15",
+  "category": "Endocrinology",
+  "source": "Clinical guideline summary",
+  "text": "Hypoglycaemia is blood glucose below 70 mg/dL. Symptoms include shakiness, sweating, hunger, palpitations, confusion and irritability. For a conscious person use the rule of 15: take 15 g of fast-acting carbohydrate, recheck in 15 minutes and repeat if still low. A person who cannot swallow or is unconscious needs intramuscular glucagon or intravenous glucose and emergency help."
+ },
+ {
+  "id": "kb-asthma",
+  "title": "Asthma exacerbation: severity and action",
+  "category": "Pulmonology",
+  "source": "Clinical guideline summary",
+  "text": "Wheeze, cough, chest tightness and breathlessness that worsen are signs of an asthma attack. Severe features: unable to complete sentences, respiratory rate above 25, pulse above 110 or peak flow below 50 percent of best. Give a short-acting reliever inhaler through a spacer and seek emergency care if there is no quick relief or the person is exhausted or drowsy. Clinicians add oxygen, systemic steroids and nebulised bronchodilators."
+ },
+ {
+  "id": "kb-copd",
+  "title": "COPD exacerbation",
+  "category": "Pulmonology",
+  "source": "Clinical guideline summary",
+  "text": "An exacerbation of COPD presents with worsening breathlessness, increased cough, and increased sputum volume or purulence. Treatment includes bronchodilators, a short course of oral corticosteroids and antibiotics when sputum is purulent. In oxygen therapy target saturation is 88-92 percent to avoid carbon dioxide retention. Admit if there is respiratory acidosis, confusion or poor response."
+ },
+ {
+  "id": "kb-pneumonia",
+  "title": "Community-acquired pneumonia and CURB-65",
+  "category": "Pulmonology",
+  "source": "Clinical guideline summary",
+  "text": "Suspect pneumonia with fever, cough, sputum, pleuritic chest pain and breathlessness. CURB-65 assigns one point each for Confusion, Urea above 7 mmol/L, Respiratory rate 30 or more, low Blood pressure (systolic below 90 or diastolic 60 or less) and age 65 or more. Score 0-1 is low risk and may be treated at home, 2 warrants hospital assessment, and 3 or more is severe pneumonia needing urgent admission."
+ },
+ {
+  "id": "kb-infant-fever",
+  "title": "Fever in infants under 3 months",
+  "category": "Paediatrics",
+  "source": "Clinical guideline summary",
+  "text": "A temperature of 38.0 C or higher in an infant younger than 3 months is an emergency until proven otherwise because serious bacterial infection can be hard to detect. Such infants need urgent in-person assessment, blood and urine tests and often lumbar puncture and antibiotics. Do not give antipyretics to delay assessment. Poor feeding, lethargy, grunting or a bulging fontanelle are danger signs at any age."
+ },
+ {
+  "id": "kb-dengue",
+  "title": "Dengue: warning signs and fluid management",
+  "category": "Infectious Disease",
+  "source": "WHO-style guidance summary",
+  "text": "Dengue causes sudden high fever with headache, pain behind the eyes, muscle and joint pain and rash. Warning signs around days 3 to 7 include severe abdominal pain, persistent vomiting, mucosal bleeding, lethargy, restlessness, liver enlargement and a rising haematocrit with a rapidly falling platelet count. Manage with oral fluids and paracetamol; avoid aspirin and NSAIDs because of bleeding risk. Admit patients with warning signs for intravenous fluids."
+ },
+ {
+  "id": "kb-malaria",
+  "title": "Malaria: fever after travel or in endemic areas",
+  "category": "Infectious Disease",
+  "source": "WHO-style guidance summary",
+  "text": "Consider malaria in any febrile patient who lives in or has recently travelled to an endemic area. Confirm with a rapid diagnostic test or blood smear before treating. Severe malaria features include impaired consciousness, repeated convulsions, severe anaemia, jaundice, respiratory distress and shock, and needs intravenous artesunate in hospital."
+ },
+ {
+  "id": "kb-uti",
+  "title": "Urinary tract infection",
+  "category": "Urology",
+  "source": "Clinical guideline summary",
+  "text": "Uncomplicated cystitis causes burning urination, frequency and urgency without fever. Fever, flank pain, vomiting, pregnancy, male sex, diabetes or catheters suggest a complicated infection or pyelonephritis and need a urine culture and prompt clinician review. Encourage fluids and treat according to local resistance patterns."
+ },
+ {
+  "id": "kb-anaphylaxis",
+  "title": "Anaphylaxis: emergency management",
+  "category": "Emergency Medicine",
+  "source": "Clinical guideline summary",
+  "text": "Suspect anaphylaxis when skin or mucosal swelling, hives, wheeze, throat tightness, vomiting or low blood pressure appear within minutes to hours of an allergen exposure. First-line treatment is intramuscular adrenaline (epinephrine) into the outer mid-thigh; a typical adult dose is 0.5 mg (0.5 mL of 1 mg/mL) repeated after 5 minutes if needed. Lay the patient flat, call emergency services and give oxygen and fluids."
+ },
+ {
+  "id": "kb-abdominal-pain",
+  "title": "Acute abdominal pain: red flags",
+  "category": "Gastroenterology",
+  "source": "Clinical guideline summary",
+  "text": "Red flags in abdominal pain are a rigid board-like abdomen, guarding or rebound tenderness, vomiting blood, black tarry stools, persistent vomiting, fever with pain, pain in a pregnant or possibly pregnant woman (consider ectopic pregnancy) and severe pain out of proportion to examination. These need urgent surgical or emergency assessment."
+ },
+ {
+  "id": "kb-headache",
+  "title": "Headache: red flags (SNOOP)",
+  "category": "Neurology",
+  "source": "Clinical guideline summary",
+  "text": "Most headaches are benign, but the SNOOP mnemonic highlights red flags: Systemic symptoms such as fever, Neurological deficits, Onset that is sudden or thunderclap, Older age with new headache after 50, and Pattern change or progression. A sudden worst headache of life may represent subarachnoid haemorrhage and needs emergency CT."
+ },
+ {
+  "id": "kb-meningitis",
+  "title": "Bacterial meningitis",
+  "category": "Infectious Disease",
+  "source": "Clinical guideline summary",
+  "text": "Fever, headache, neck stiffness and photophobia are the classic features, with vomiting, confusion and seizures in severe cases. A non-blanching purpuric rash suggests meningococcal disease. This is a medical emergency: give antibiotics without delay, take blood cultures, and arrange imaging and lumbar puncture when safe."
+ },
+ {
+  "id": "kb-heart-failure",
+  "title": "Heart failure: symptoms and self-care",
+  "category": "Cardiology",
+  "source": "Clinical guideline summary",
+  "text": "Heart failure causes breathlessness on exertion or lying flat, ankle swelling, fatigue and rapid weight gain. Patients should weigh daily and seek advice if weight rises by more than 2 kg in 3 days. Guideline-directed therapy combines an ACE inhibitor or ARNI, a beta-blocker, a mineralocorticoid receptor antagonist and an SGLT2 inhibitor, with diuretics for congestion."
+ },
+ {
+  "id": "kb-afib",
+  "title": "Atrial fibrillation and stroke prevention",
+  "category": "Cardiology",
+  "source": "Clinical guideline summary",
+  "text": "Atrial fibrillation causes an irregularly irregular pulse, palpitations, breathlessness or fatigue, and sharply raises stroke risk. The CHA2DS2-VASc score (heart failure, hypertension, age, diabetes, prior stroke, vascular disease, sex) guides anticoagulation. Rate or rhythm control is chosen according to symptoms and haemodynamic stability."
+ },
+ {
+  "id": "kb-mental-crisis",
+  "title": "Mental health crisis and suicidal thoughts",
+  "category": "Psychiatry",
+  "source": "Clinical guideline summary",
+  "text": "Take any mention of suicidal thoughts seriously. Stay with the person, ask directly and calmly, remove access to means where possible and connect them with immediate professional help. In India call Tele-MANAS 14416 or emergency services on 112; in the United States call or text 988. Depression, anxiety and substance use are treatable and early help improves outcomes."
+ },
+ {
+  "id": "kb-pregnancy-warning",
+  "title": "Pregnancy danger signs and pre-eclampsia",
+  "category": "Obstetrics",
+  "source": "WHO-style guidance summary",
+  "text": "Seek urgent care for vaginal bleeding, severe abdominal pain, severe headache, blurred vision, swelling of face and hands, convulsions, fever, leaking fluid or reduced fetal movements. Blood pressure of 140/90 mmHg or higher after 20 weeks with proteinuria suggests pre-eclampsia, which can progress to eclampsia and is treated with antihypertensives and magnesium sulphate."
+ },
+ {
+  "id": "kb-nsaid-safety",
+  "title": "NSAID and paracetamol safety",
+  "category": "Pharmacy",
+  "source": "Medication safety summary",
+  "text": "NSAIDs such as ibuprofen and diclofenac can cause gastric bleeding, kidney injury and fluid retention, and should be avoided or used cautiously with anticoagulants, kidney disease, heart failure, ulcers and in late pregnancy. Paracetamol is generally limited to 4 g in 24 hours for healthy adults, with lower limits in liver disease, malnutrition or low body weight. Always check combination cold products for hidden paracetamol."
+ },
+ {
+  "id": "kb-antibiotic-stewardship",
+  "title": "Antibiotic stewardship",
+  "category": "Infectious Disease",
+  "source": "WHO-style guidance summary",
+  "text": "Most sore throats, colds, bronchitis and coughs are viral and do not need antibiotics. Inappropriate antibiotic use drives antimicrobial resistance. Prescribe only for suspected bacterial infection, choose the narrowest effective agent, document indication and duration, and review at 48-72 hours."
+ },
+ {
+  "id": "kb-hand-hygiene",
+  "title": "Hand hygiene: WHO five moments",
+  "category": "Infection Control",
+  "source": "WHO guidance summary",
+  "text": "Clean hands before touching a patient, before clean or aseptic procedures, after body fluid exposure, after touching a patient and after touching patient surroundings. Alcohol-based hand rub takes 20-30 seconds; wash with soap and water for 40-60 seconds when hands are visibly soiled or after caring for patients with Clostridioides difficile."
+ },
+ {
+  "id": "kb-ckd",
+  "title": "Chronic kidney disease and medicine safety",
+  "category": "Nephrology",
+  "source": "Clinical guideline summary",
+  "text": "CKD is staged by eGFR: G1 90 or more, G2 60-89, G3a 45-59, G3b 30-44, G4 15-29, G5 below 15 mL/min/1.73m2, together with albuminuria. Avoid NSAIDs, review renally cleared drugs, and avoid metformin when eGFR is below 30. Control blood pressure and glucose, and use ACE inhibitors or ARBs for proteinuria with potassium monitoring."
+ },
+ {
+  "id": "kb-lipids",
+  "title": "Cholesterol and cardiovascular risk",
+  "category": "Cardiology",
+  "source": "Clinical guideline summary",
+  "text": "Desirable total cholesterol is below 200 mg/dL, LDL below 100 mg/dL (lower for very high risk), HDL above 40 mg/dL in men and 50 mg/dL in women, and triglycerides below 150 mg/dL. Statins are first-line to lower LDL in people with established cardiovascular disease, diabetes or high calculated risk. Lifestyle change supports but does not replace therapy when risk is high."
+ },
+ {
+  "id": "kb-gastroenteritis",
+  "title": "Gastroenteritis and dehydration",
+  "category": "Gastroenterology",
+  "source": "WHO-style guidance summary",
+  "text": "Acute diarrhoea and vomiting are managed with oral rehydration solution in small frequent sips. Seek care for blood in stool, high fever, persistent vomiting, severe weakness, sunken eyes, very little urine, or illness in infants, older adults and pregnant women. Zinc supplementation reduces duration in children."
+ },
+ {
+  "id": "kb-anaemia",
+  "title": "Anaemia: evaluation",
+  "category": "Haematology",
+  "source": "Clinical guideline summary",
+  "text": "Anaemia is haemoglobin below 13 g/dL in men and below 12 g/dL in non-pregnant women. Fatigue, pallor, breathlessness and palpitations are common. Check the red cell indices, ferritin, B12 and folate; iron deficiency in men or postmenopausal women warrants evaluation for gastrointestinal blood loss. Oral iron is first-line for iron deficiency."
+ },
+ {
+  "id": "kb-thyroid",
+  "title": "Thyroid function tests",
+  "category": "Endocrinology",
+  "source": "Clinical guideline summary",
+  "text": "A raised TSH with low free T4 indicates primary hypothyroidism, causing fatigue, weight gain, cold intolerance and constipation, treated with levothyroxine. A suppressed TSH with high free T4 indicates hyperthyroidism, causing weight loss, tremor, palpitations and heat intolerance. The typical TSH reference range is 0.4-4.0 mIU/L."
+ },
+ {
+  "id": "kb-head-injury",
+  "title": "Head injury: when to scan",
+  "category": "Emergency Medicine",
+  "source": "Clinical guideline summary",
+  "text": "Seek emergency care after head injury if there is loss of consciousness, repeated vomiting, seizure, worsening headache, confusion, drowsiness, clear fluid from nose or ears, weakness, or the patient is on anticoagulants or over 65. CT head is indicated by decision rules such as Canadian CT Head Rule or NICE criteria."
+ },
+ {
+  "id": "kb-seizure",
+  "title": "Seizure first aid and emergency criteria",
+  "category": "Neurology",
+  "source": "Clinical guideline summary",
+  "text": "During a seizure stay calm, note the time, move hard objects away and cushion the head. Do not restrain the person or put anything in their mouth. When the shaking stops, place them in the recovery position and stay until fully awake. Call emergency services if the seizure lasts more than 5 minutes, repeats without recovery, is a first-ever seizure, causes injury, happens in water, or occurs in pregnancy or diabetes. Status epilepticus is treated with intravenous benzodiazepines."
+ },
+ {
+  "id": "kb-anticoagulants",
+  "title": "Warfarin, aspirin and bleeding risk",
+  "category": "Pharmacy",
+  "source": "Medication safety summary",
+  "text": "Warfarin is monitored with the INR, usually targeted between 2.0 and 3.0 for most indications. Taking aspirin, ibuprofen, diclofenac or other NSAIDs with warfarin increases the risk of serious bleeding, and many antibiotics and herbal products change warfarin effect. Patients should report black stools, blood in urine, nosebleeds that do not stop or unusual bruising. Never start or stop aspirin or warfarin without the prescriber's advice, and do not change doses on your own."
+ },
+ {
+  "id": "sop-visiting",
+  "title": "SOP: visiting hours and visitor policy",
+  "category": "Hospital SOP (demo)",
+  "source": "MediSphere General Hospital SOP",
+  "text": "General wards allow visitors from 4:00 pm to 7:00 pm with a maximum of two visitors per patient at a time. ICU visits are limited to 15 minutes twice daily for immediate family and require hand hygiene and approval from the nurse in charge. Children under 12 are not permitted in ICU or isolation rooms."
+ },
+ {
+  "id": "sop-discharge",
+  "title": "SOP: discharge process checklist",
+  "category": "Hospital SOP (demo)",
+  "source": "MediSphere General Hospital SOP",
+  "text": "Before discharge the treating doctor confirms clinical stability and signs the discharge summary. Nursing completes medication reconciliation, teaches the patient and family about medicines and warning signs, and books the follow-up appointment. Billing clears insurance pre-authorisation or payment, and the patient receives reports, prescriptions and the summary. Target discharge completion is within 3 hours of the doctor's order."
+ },
+ {
+  "id": "sop-identification",
+  "title": "SOP: patient identification and safety",
+  "category": "Hospital SOP (demo)",
+  "source": "MediSphere General Hospital SOP",
+  "text": "Use at least two patient identifiers, full name and date of birth or medical record number, before giving medicines, drawing blood, performing procedures or transporting patients. Never use the room number as an identifier. Verify allergies against the wristband and chart before every new medicine."
+ },
+ {
+  "id": "sop-privacy",
+  "title": "SOP: patient data privacy and access",
+  "category": "Hospital SOP (demo)",
+  "source": "MediSphere General Hospital SOP",
+  "text": "Access to patient records follows the need-to-know principle and every access is logged. Identifiers such as phone number, email and national ID are masked in analytics and AI assistants. Staff must not share records on personal messaging apps. Processing of digital personal data is aligned with the principles of India's Digital Personal Data Protection Act 2023 and HIPAA-style safeguards."
+ },
+ {
+  "id": "sop-medication-rec",
+  "title": "SOP: medication reconciliation",
+  "category": "Hospital SOP (demo)",
+  "source": "MediSphere General Hospital SOP",
+  "text": "At admission, transfer and discharge, compare the patient's current home medicines with orders. Record drug, dose, route, frequency and last dose taken. Resolve duplications, omissions and interactions, and document the decision. High-alert medicines such as insulin, anticoagulants and opioids need an independent double check."
+ }
+]

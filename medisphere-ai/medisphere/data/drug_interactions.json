@@ -1,0 +1,218 @@
+{
+ "drugs": {
+  "warfarin": [
+   "warfarin",
+   "coumadin"
+  ],
+  "aspirin": [
+   "aspirin",
+   "ecosprin",
+   "acetylsalicylic"
+  ],
+  "ibuprofen": [
+   "ibuprofen",
+   "brufen",
+   "advil"
+  ],
+  "diclofenac": [
+   "diclofenac",
+   "voveran"
+  ],
+  "sildenafil": [
+   "sildenafil",
+   "viagra"
+  ],
+  "nitroglycerin": [
+   "nitroglycerin",
+   "glyceryl trinitrate",
+   "gtn",
+   "isosorbide"
+  ],
+  "simvastatin": [
+   "simvastatin"
+  ],
+  "atorvastatin": [
+   "atorvastatin",
+   "lipitor"
+  ],
+  "clarithromycin": [
+   "clarithromycin",
+   "klacid"
+  ],
+  "lisinopril": [
+   "lisinopril",
+   "enalapril",
+   "ramipril",
+   "ace inhibitor"
+  ],
+  "spironolactone": [
+   "spironolactone",
+   "aldactone"
+  ],
+  "tramadol": [
+   "tramadol"
+  ],
+  "sertraline": [
+   "sertraline",
+   "fluoxetine",
+   "escitalopram",
+   "ssri"
+  ],
+  "clopidogrel": [
+   "clopidogrel",
+   "plavix"
+  ],
+  "omeprazole": [
+   "omeprazole",
+   "esomeprazole"
+  ],
+  "methotrexate": [
+   "methotrexate"
+  ],
+  "digoxin": [
+   "digoxin"
+  ],
+  "amiodarone": [
+   "amiodarone"
+  ],
+  "metformin": [
+   "metformin",
+   "glycomet"
+  ],
+  "paracetamol": [
+   "paracetamol",
+   "acetaminophen",
+   "crocin",
+   "dolo",
+   "tylenol"
+  ],
+  "amoxicillin": [
+   "amoxicillin",
+   "amoxycillin"
+  ],
+  "insulin": [
+   "insulin"
+  ],
+  "ciprofloxacin": [
+   "ciprofloxacin",
+   "cipro"
+  ],
+  "theophylline": [
+   "theophylline"
+  ]
+ },
+ "pairs": [
+  {
+   "a": "warfarin",
+   "b": "aspirin",
+   "severity": "Major",
+   "effect": "Higher risk of serious bleeding.",
+   "advice": "Avoid unless specifically prescribed; monitor INR and bleeding signs."
+  },
+  {
+   "a": "warfarin",
+   "b": "ibuprofen",
+   "severity": "Major",
+   "effect": "NSAIDs raise bleeding risk and can alter INR.",
+   "advice": "Avoid; use paracetamol for pain if suitable and consult the prescriber."
+  },
+  {
+   "a": "warfarin",
+   "b": "diclofenac",
+   "severity": "Major",
+   "effect": "NSAIDs raise bleeding risk with warfarin.",
+   "advice": "Avoid combination; seek prescriber advice."
+  },
+  {
+   "a": "sildenafil",
+   "b": "nitroglycerin",
+   "severity": "Contraindicated",
+   "effect": "Profound, potentially fatal drop in blood pressure.",
+   "advice": "Never combine; nitrates must be avoided for at least 24 hours after sildenafil."
+  },
+  {
+   "a": "simvastatin",
+   "b": "clarithromycin",
+   "severity": "Major",
+   "effect": "Raised statin levels increase the risk of myopathy and rhabdomyolysis.",
+   "advice": "Withhold the statin during the antibiotic course or choose another antibiotic."
+  },
+  {
+   "a": "lisinopril",
+   "b": "spironolactone",
+   "severity": "Major",
+   "effect": "Risk of dangerous hyperkalaemia, especially with kidney disease.",
+   "advice": "Monitor potassium and renal function closely."
+  },
+  {
+   "a": "lisinopril",
+   "b": "ibuprofen",
+   "severity": "Moderate",
+   "effect": "NSAIDs blunt the antihypertensive effect and raise kidney injury risk.",
+   "advice": "Avoid regular NSAID use; monitor kidney function."
+  },
+  {
+   "a": "tramadol",
+   "b": "sertraline",
+   "severity": "Major",
+   "effect": "Risk of serotonin syndrome and seizures.",
+   "advice": "Avoid or use with close supervision; know the symptoms of agitation, fever and tremor."
+  },
+  {
+   "a": "clopidogrel",
+   "b": "omeprazole",
+   "severity": "Moderate",
+   "effect": "Omeprazole may reduce activation of clopidogrel.",
+   "advice": "Consider pantoprazole as an alternative."
+  },
+  {
+   "a": "methotrexate",
+   "b": "ibuprofen",
+   "severity": "Major",
+   "effect": "NSAIDs reduce methotrexate clearance leading to toxicity.",
+   "advice": "Avoid, especially with high-dose methotrexate."
+  },
+  {
+   "a": "digoxin",
+   "b": "amiodarone",
+   "severity": "Major",
+   "effect": "Amiodarone raises digoxin levels, risking toxicity.",
+   "advice": "Halve the digoxin dose and monitor levels."
+  },
+  {
+   "a": "aspirin",
+   "b": "ibuprofen",
+   "severity": "Moderate",
+   "effect": "Ibuprofen can interfere with aspirin's antiplatelet effect and increases GI bleeding.",
+   "advice": "Take aspirin first and separate doses, or choose another analgesic."
+  },
+  {
+   "a": "aspirin",
+   "b": "clopidogrel",
+   "severity": "Moderate",
+   "effect": "Dual antiplatelet therapy increases bleeding.",
+   "advice": "Use only when indicated; review need and duration regularly."
+  },
+  {
+   "a": "ciprofloxacin",
+   "b": "theophylline",
+   "severity": "Major",
+   "effect": "Ciprofloxacin increases theophylline levels causing toxicity.",
+   "advice": "Monitor theophylline levels or select a different antibiotic."
+  },
+  {
+   "a": "warfarin",
+   "b": "amoxicillin",
+   "severity": "Moderate",
+   "effect": "Antibiotics can enhance warfarin effect.",
+   "advice": "Check INR within 3-5 days of starting."
+  },
+  {
+   "a": "warfarin",
+   "b": "paracetamol",
+   "severity": "Minor",
+   "effect": "Regular high-dose paracetamol can raise INR.",
+   "advice": "Occasional use is generally acceptable; monitor INR with regular use."
+  }
+ ]
+}

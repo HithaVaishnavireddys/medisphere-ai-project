@@ -1,0 +1,9 @@
+services:
+  medisphere:
+    build: .
+    env_file: .env
+    ports: ["8000:8000"]
+    volumes: ["medisphere-data:/data"]
+    restart: unless-stopped
+volumes:
+  medisphere-data:

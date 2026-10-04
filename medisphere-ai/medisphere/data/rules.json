@@ -1,0 +1,1125 @@
+{
+ "symptoms": [
+  {
+   "id": "stroke",
+   "label": "Stroke signs",
+   "patterns": [
+    "face (is )?droop",
+    "facial droop",
+    "slurred speech",
+    "arm weakness",
+    "one[- ]sided weakness",
+    "sudden (numbness|weakness)",
+    "can'?t speak",
+    "trouble speaking"
+   ],
+   "weight": 5,
+   "category": "Neurological",
+   "department": "Neurology / Stroke Unit",
+   "red_flag": true,
+   "level_floor": 1
+  },
+  {
+   "id": "seizure",
+   "label": "Seizure",
+   "patterns": [
+    "seizure",
+    "convuls"
+   ],
+   "weight": 5,
+   "category": "Neurological",
+   "department": "Neurology",
+   "red_flag": true,
+   "level_floor": 1
+  },
+  {
+   "id": "bleeding",
+   "label": "Severe bleeding",
+   "patterns": [
+    "heavy bleeding",
+    "bleeding (won'?t|will not) stop",
+    "vomit(ing)? blood",
+    "cough(ing)? (up )?blood",
+    "blood in (the )?(stool|vomit)",
+    "black (tarry )?stool"
+   ],
+   "weight": 5,
+   "category": "Haemorrhage",
+   "department": "Emergency Medicine",
+   "red_flag": true,
+   "level_floor": 1
+  },
+  {
+   "id": "anaphylaxis",
+   "label": "Possible anaphylaxis",
+   "patterns": [
+    "swelling of (the )?(lips|tongue|throat)",
+    "throat (is )?(closing|swelling|tight)",
+    "tongue (is )?swollen",
+    "anaphyla"
+   ],
+   "weight": 5,
+   "category": "Allergic",
+   "department": "Emergency Medicine",
+   "red_flag": true,
+   "level_floor": 1
+  },
+  {
+   "id": "thunderclap",
+   "label": "Sudden severe headache",
+   "patterns": [
+    "thunderclap",
+    "worst headache",
+    "sudden severe headache"
+   ],
+   "weight": 5,
+   "category": "Neurological",
+   "department": "Neurology",
+   "red_flag": true,
+   "level_floor": 2
+  },
+  {
+   "id": "chest_pain",
+   "label": "Chest pain",
+   "patterns": [
+    "chest (pain|pressure|tightness|discomfort|heaviness)",
+    "heart attack",
+    "tight chest"
+   ],
+   "weight": 4,
+   "category": "Cardiac",
+   "department": "Cardiology",
+   "red_flag": true,
+   "level_floor": 2
+  },
+  {
+   "id": "dyspnoea",
+   "label": "Breathlessness",
+   "patterns": [
+    "short(ness)? of breath",
+    "breathless",
+    "difficulty breathing",
+    "can'?t breathe",
+    "struggling to breathe",
+    "trouble breathing"
+   ],
+   "weight": 4,
+   "category": "Respiratory",
+   "department": "Pulmonology",
+   "red_flag": true,
+   "level_floor": 2
+  },
+  {
+   "id": "syncope",
+   "label": "Fainting / collapse",
+   "patterns": [
+    "\\bfaint",
+    "passed out",
+    "blackout",
+    "collapse",
+    "loss of consciousness"
+   ],
+   "weight": 4,
+   "category": "Neurological",
+   "department": "Emergency Medicine",
+   "red_flag": true,
+   "level_floor": 2
+  },
+  {
+   "id": "confusion",
+   "label": "Confusion / altered consciousness",
+   "patterns": [
+    "confus",
+    "disorient",
+    "altered mental",
+    "drowsy",
+    "unresponsive",
+    "not responding"
+   ],
+   "weight": 4,
+   "category": "Neurological",
+   "department": "Emergency Medicine",
+   "red_flag": true,
+   "level_floor": 2
+  },
+  {
+   "id": "suicidal",
+   "label": "Suicidal thoughts / self-harm",
+   "patterns": [
+    "suicid",
+    "kill myself",
+    "end my life",
+    "want to die",
+    "self[- ]harm"
+   ],
+   "weight": 5,
+   "category": "Mental health",
+   "department": "Psychiatry",
+   "red_flag": true,
+   "level_floor": 2
+  },
+  {
+   "id": "pregnancy_bleed",
+   "label": "Pregnancy with bleeding or pain",
+   "patterns": [
+    "pregnan\\w*.{0,40}(bleed|pain|cramp)",
+    "(bleed|pain|cramp)\\w*.{0,40}pregnan"
+   ],
+   "weight": 5,
+   "category": "Obstetric",
+   "department": "Obstetrics & Gynaecology",
+   "red_flag": true,
+   "level_floor": 2
+  },
+  {
+   "id": "severe_abdomen",
+   "label": "Severe abdominal pain",
+   "patterns": [
+    "severe (abdominal|stomach|belly) pain",
+    "rigid (abdomen|stomach)",
+    "board[- ]like"
+   ],
+   "weight": 4,
+   "category": "Gastrointestinal",
+   "department": "General Surgery",
+   "red_flag": true,
+   "level_floor": 2
+  },
+  {
+   "id": "head_injury",
+   "label": "Head injury",
+   "patterns": [
+    "head injury",
+    "hit (my |his |her )?head",
+    "fell and hit"
+   ],
+   "weight": 3,
+   "category": "Trauma",
+   "department": "Emergency Medicine",
+   "red_flag": true,
+   "level_floor": 3
+  },
+  {
+   "id": "fracture",
+   "label": "Possible fracture",
+   "patterns": [
+    "fractur",
+    "broken (bone|arm|leg|wrist|ankle)",
+    "deformity"
+   ],
+   "weight": 3,
+   "category": "Trauma",
+   "department": "Orthopaedics",
+   "red_flag": true,
+   "level_floor": 3
+  },
+  {
+   "id": "neck_stiffness",
+   "label": "Neck stiffness",
+   "patterns": [
+    "stiff neck",
+    "neck stiffness",
+    "photophobia",
+    "light hurts"
+   ],
+   "weight": 3,
+   "category": "Neurological",
+   "department": "Neurology",
+   "red_flag": false,
+   "level_floor": 5
+  },
+  {
+   "id": "radiating",
+   "label": "Pain radiating to arm / jaw",
+   "patterns": [
+    "(pain|pressure).{0,30}(left arm|jaw|back)",
+    "left arm",
+    "jaw pain"
+   ],
+   "weight": 2,
+   "category": "Cardiac",
+   "department": "Cardiology",
+   "red_flag": false,
+   "level_floor": 5
+  },
+  {
+   "id": "sweating",
+   "label": "Sweating",
+   "patterns": [
+    "sweat",
+    "clammy"
+   ],
+   "weight": 1,
+   "category": "General",
+   "department": "General Medicine",
+   "red_flag": false,
+   "level_floor": 5
+  },
+  {
+   "id": "palpitations",
+   "label": "Palpitations",
+   "patterns": [
+    "palpitation",
+    "racing heart",
+    "heart (is )?racing",
+    "irregular heart"
+   ],
+   "weight": 2,
+   "category": "Cardiac",
+   "department": "Cardiology",
+   "red_flag": false,
+   "level_floor": 5
+  },
+  {
+   "id": "fever",
+   "label": "Fever",
+   "patterns": [
+    "fever",
+    "high temperature",
+    "febrile",
+    "chills",
+    "shivering"
+   ],
+   "weight": 2,
+   "category": "Infectious",
+   "department": "General Medicine",
+   "red_flag": false,
+   "level_floor": 5
+  },
+  {
+   "id": "cough",
+   "label": "Cough",
+   "patterns": [
+    "cough"
+   ],
+   "weight": 1,
+   "category": "Respiratory",
+   "department": "Pulmonology",
+   "red_flag": false,
+   "level_floor": 5
+  },
+  {
+   "id": "sore_throat",
+   "label": "Sore throat",
+   "patterns": [
+    "sore throat",
+    "throat pain",
+    "runny nose",
+    "blocked nose"
+   ],
+   "weight": 2,
+   "category": "ENT",
+   "department": "ENT",
+   "red_flag": false,
+   "level_floor": 5
+  },
+  {
+   "id": "headache",
+   "label": "Headache",
+   "patterns": [
+    "headache",
+    "migraine"
+   ],
+   "weight": 1,
+   "category": "Neurological",
+   "department": "Neurology",
+   "red_flag": false,
+   "level_floor": 5
+  },
+  {
+   "id": "abdominal_pain",
+   "label": "Abdominal pain",
+   "patterns": [
+    "abdominal pain",
+    "stomach (pain|ache)",
+    "belly pain",
+    "tummy ache"
+   ],
+   "weight": 2,
+   "category": "Gastrointestinal",
+   "department": "Gastroenterology",
+   "red_flag": false,
+   "level_floor": 5
+  },
+  {
+   "id": "vomiting",
+   "label": "Nausea / vomiting",
+   "patterns": [
+    "vomit",
+    "nausea",
+    "nauseous"
+   ],
+   "weight": 1,
+   "category": "Gastrointestinal",
+   "department": "Gastroenterology",
+   "red_flag": false,
+   "level_floor": 5
+  },
+  {
+   "id": "diarrhoea",
+   "label": "Diarrhoea",
+   "patterns": [
+    "diarrh",
+    "loose motion",
+    "loose stool"
+   ],
+   "weight": 1,
+   "category": "Gastrointestinal",
+   "department": "Gastroenterology",
+   "red_flag": false,
+   "level_floor": 5
+  },
+  {
+   "id": "dysuria",
+   "label": "Urinary symptoms",
+   "patterns": [
+    "burning (urination|when i pee|while urinating)",
+    "painful urination",
+    "frequent urination",
+    "burning pee"
+   ],
+   "weight": 2,
+   "category": "Urological",
+   "department": "Urology",
+   "red_flag": false,
+   "level_floor": 5
+  },
+  {
+   "id": "rash",
+   "label": "Rash / itching",
+   "patterns": [
+    "\\brash",
+    "hives",
+    "itch"
+   ],
+   "weight": 1,
+   "category": "Dermatological",
+   "department": "Dermatology",
+   "red_flag": false,
+   "level_floor": 5
+  },
+  {
+   "id": "back_pain",
+   "label": "Back / joint pain",
+   "patterns": [
+    "back pain",
+    "joint pain",
+    "knee pain",
+    "muscle pain",
+    "body ache",
+    "body pain"
+   ],
+   "weight": 1,
+   "category": "Musculoskeletal",
+   "department": "Orthopaedics",
+   "red_flag": false,
+   "level_floor": 5
+  },
+  {
+   "id": "dizziness",
+   "label": "Dizziness",
+   "patterns": [
+    "dizz",
+    "vertigo",
+    "light[- ]?headed"
+   ],
+   "weight": 1,
+   "category": "Neurological",
+   "department": "General Medicine",
+   "red_flag": false,
+   "level_floor": 5
+  },
+  {
+   "id": "thirst",
+   "label": "Excessive thirst / urination",
+   "patterns": [
+    "excessive thirst",
+    "very thirsty",
+    "passing (a lot of )?urine",
+    "always thirsty"
+   ],
+   "weight": 2,
+   "category": "Endocrine",
+   "department": "Endocrinology",
+   "red_flag": false,
+   "level_floor": 5
+  },
+  {
+   "id": "leg_swelling",
+   "label": "Leg / ankle swelling",
+   "patterns": [
+    "swollen (leg|ankle|feet)",
+    "(leg|ankle|feet) swelling"
+   ],
+   "weight": 2,
+   "category": "Cardiac",
+   "department": "Cardiology",
+   "red_flag": false,
+   "level_floor": 5
+  },
+  {
+   "id": "fatigue",
+   "label": "Fatigue",
+   "patterns": [
+    "fatigue",
+    "tired",
+    "weakness",
+    "lethargy"
+   ],
+   "weight": 1,
+   "category": "General",
+   "department": "General Medicine",
+   "red_flag": false,
+   "level_floor": 5
+  }
+ ],
+ "combos": [
+  {
+   "all": [
+    "chest_pain",
+    "sweating"
+   ],
+   "level": 1,
+   "reason": "Chest pain with sweating: possible acute coronary syndrome"
+  },
+  {
+   "all": [
+    "chest_pain",
+    "radiating"
+   ],
+   "level": 1,
+   "reason": "Chest pain radiating to arm/jaw: possible acute coronary syndrome"
+  },
+  {
+   "all": [
+    "chest_pain",
+    "dyspnoea"
+   ],
+   "level": 1,
+   "reason": "Chest pain with breathlessness: possible ACS or pulmonary embolism"
+  },
+  {
+   "all": [
+    "fever",
+    "neck_stiffness"
+   ],
+   "level": 1,
+   "reason": "Fever with neck stiffness: possible meningitis"
+  },
+  {
+   "all": [
+    "fever",
+    "confusion"
+   ],
+   "level": 1,
+   "reason": "Fever with confusion: possible sepsis or CNS infection"
+  },
+  {
+   "all": [
+    "dyspnoea",
+    "fever"
+   ],
+   "level": 2,
+   "reason": "Fever with breathlessness: possible pneumonia or sepsis"
+  }
+ ],
+ "news2": {
+  "resp_rate": [
+   [
+    0,
+    9,
+    3
+   ],
+   [
+    9,
+    12,
+    1
+   ],
+   [
+    12,
+    21,
+    0
+   ],
+   [
+    21,
+    25,
+    2
+   ],
+   [
+    25,
+    999,
+    3
+   ]
+  ],
+  "spo2": [
+   [
+    0,
+    92,
+    3
+   ],
+   [
+    92,
+    94,
+    2
+   ],
+   [
+    94,
+    96,
+    1
+   ],
+   [
+    96,
+    101,
+    0
+   ]
+  ],
+  "sbp": [
+   [
+    0,
+    91,
+    3
+   ],
+   [
+    91,
+    101,
+    2
+   ],
+   [
+    101,
+    111,
+    1
+   ],
+   [
+    111,
+    220,
+    0
+   ],
+   [
+    220,
+    999,
+    3
+   ]
+  ],
+  "pulse": [
+   [
+    0,
+    41,
+    3
+   ],
+   [
+    41,
+    51,
+    1
+   ],
+   [
+    51,
+    91,
+    0
+   ],
+   [
+    91,
+    111,
+    1
+   ],
+   [
+    111,
+    131,
+    2
+   ],
+   [
+    131,
+    999,
+    3
+   ]
+  ],
+  "temp": [
+   [
+    0,
+    35.05,
+    3
+   ],
+   [
+    35.05,
+    36.05,
+    1
+   ],
+   [
+    36.05,
+    38.05,
+    0
+   ],
+   [
+    38.05,
+    39.05,
+    1
+   ],
+   [
+    39.05,
+    99,
+    2
+   ]
+  ]
+ },
+ "levels": {
+  "1": {
+   "name": "Immediate",
+   "color": "#B3261E",
+   "target": "Immediate resuscitation / emergency team",
+   "disposition": "Emergency Department, resuscitation bay now"
+  },
+  "2": {
+   "name": "Emergent",
+   "color": "#D9480F",
+   "target": "Clinician within 15 minutes",
+   "disposition": "Emergency Department, fast-track assessment"
+  },
+  "3": {
+   "name": "Urgent",
+   "color": "#B7791F",
+   "target": "Clinician within 60 minutes",
+   "disposition": "Urgent care / same-day specialist review"
+  },
+  "4": {
+   "name": "Less urgent",
+   "color": "#2F7D5B",
+   "target": "Clinician within 2 hours",
+   "disposition": "Outpatient clinic, same-day appointment"
+  },
+  "5": {
+   "name": "Non-urgent",
+   "color": "#1F6F8B",
+   "target": "Routine or tele-consultation",
+   "disposition": "Teleconsultation or routine appointment"
+  }
+ },
+ "synonyms": {
+  "heart attack": [
+   "myocardial infarction",
+   "acute coronary syndrome",
+   "chest pain"
+  ],
+  "angina": [
+   "chest pain",
+   "coronary"
+  ],
+  "high blood pressure": [
+   "hypertension"
+  ],
+  "bp": [
+   "blood pressure",
+   "hypertension"
+  ],
+  "sugar": [
+   "glucose",
+   "diabetes"
+  ],
+  "diabetic": [
+   "diabetes"
+  ],
+  "low sugar": [
+   "hypoglycaemia",
+   "hypoglycemia"
+  ],
+  "hypoglycemia": [
+   "hypoglycaemia"
+  ],
+  "stroke": [
+   "fast",
+   "thrombolysis"
+  ],
+  "breathing": [
+   "breathlessness",
+   "dyspnoea",
+   "asthma"
+  ],
+  "wheezing": [
+   "asthma"
+  ],
+  "uti": [
+   "urinary",
+   "cystitis"
+  ],
+  "fever": [
+   "temperature",
+   "febrile"
+  ],
+  "baby": [
+   "infant",
+   "paediatric"
+  ],
+  "newborn": [
+   "infant"
+  ],
+  "child": [
+   "paediatric",
+   "infant"
+  ],
+  "visiting": [
+   "visitors",
+   "visiting hours"
+  ],
+  "visitor": [
+   "visitors",
+   "visiting hours"
+  ],
+  "discharge": [
+   "discharge process"
+  ],
+  "privacy": [
+   "data",
+   "confidential"
+  ],
+  "cholesterol": [
+   "lipids",
+   "statin",
+   "ldl"
+  ],
+  "kidney": [
+   "ckd",
+   "egfr",
+   "renal"
+  ],
+  "thyroid": [
+   "tsh",
+   "levothyroxine"
+  ],
+  "anemia": [
+   "anaemia",
+   "haemoglobin"
+  ],
+  "allergy": [
+   "anaphylaxis",
+   "allergen"
+  ],
+  "mosquito": [
+   "dengue",
+   "malaria"
+  ],
+  "depressed": [
+   "depression",
+   "suicidal"
+  ],
+  "sepsis": [
+   "qsofa",
+   "infection"
+  ],
+  "pregnant": [
+   "pregnancy"
+  ],
+  "painkiller": [
+   "nsaid",
+   "paracetamol",
+   "analgesic"
+  ],
+  "antibiotics": [
+   "antibiotic",
+   "stewardship"
+  ],
+  "washing hands": [
+   "hand hygiene"
+  ]
+ },
+ "stopwords": [
+  "a",
+  "an",
+  "and",
+  "are",
+  "as",
+  "at",
+  "be",
+  "by",
+  "for",
+  "from",
+  "has",
+  "have",
+  "how",
+  "i",
+  "in",
+  "is",
+  "it",
+  "its",
+  "my",
+  "of",
+  "on",
+  "or",
+  "that",
+  "the",
+  "this",
+  "to",
+  "was",
+  "what",
+  "when",
+  "which",
+  "who",
+  "with",
+  "you",
+  "your",
+  "do",
+  "does",
+  "can",
+  "should",
+  "should",
+  "me",
+  "about",
+  "if",
+  "am",
+  "we",
+  "our",
+  "their",
+  "they",
+  "them",
+  "there",
+  "than",
+  "then",
+  "into",
+  "over",
+  "after",
+  "before",
+  "while",
+  "during",
+  "any",
+  "some",
+  "such",
+  "not",
+  "no",
+  "yes",
+  "please",
+  "tell",
+  "give",
+  "explain",
+  "want",
+  "need",
+  "best",
+  "treat",
+  "good",
+  "tips",
+  "use",
+  "used",
+  "using"
+ ],
+ "guard": {
+  "injection": [
+   "ignore (all |the )?(previous|above|prior) (instructions|rules)",
+   "disregard (your|the) (instructions|rules|guidelines)",
+   "reveal (your )?(system )?prompt",
+   "you are now",
+   "jailbreak",
+   "act as (an? )?(unrestricted|dan)",
+   "pretend (you have no|there are no) (rules|restrictions)"
+  ],
+  "pii": {
+   "email": "[\\w.+-]+@[\\w-]+\\.[\\w.-]+",
+   "phone": "(?<!\\d)(?:\\+?91[-\\s]?)?[6-9]\\d{9}(?!\\d)",
+   "aadhaar": "(?<!\\d)\\d{4}\\s\\d{4}\\s\\d{4}(?!\\d)",
+   "ssn": "(?<!\\d)\\d{3}-\\d{2}-\\d{4}(?!\\d)",
+   "mrn": "\\b(?:MRN|UHID)[:\\s#-]*\\w{5,12}\\b",
+   "dob": "\\b(?:0?[1-9]|[12]\\d|3[01])[/-](?:0?[1-9]|1[0-2])[/-](?:19|20)\\d{2}\\b"
+  },
+  "dosing": "\\b(how (much|many)|what dose|dosage|dose of|mg)\\b",
+  "personal": "\\b(my|i |i'm|im|for me|my (wife|husband|son|daughter|mother|father|baby|child))\\b",
+  "emergency_numbers": "India: 112 (emergency) or 108 (ambulance); USA: 911"
+ },
+ "labs": [
+  {
+   "id": "hb",
+   "name": "Haemoglobin",
+   "aliases": [
+    "haemoglobin",
+    "hemoglobin",
+    "hb"
+   ],
+   "unit": "g/dL",
+   "low": 12.0,
+   "high": 15.5,
+   "low_m": 13.5,
+   "high_m": 17.5,
+   "kb": "kb-anaemia"
+  },
+  {
+   "id": "wbc",
+   "name": "WBC count",
+   "aliases": [
+    "wbc",
+    "total leucocyte count",
+    "tlc",
+    "white blood cell"
+   ],
+   "unit": "x10^9/L",
+   "low": 4.0,
+   "high": 11.0,
+   "kb": "kb-sepsis"
+  },
+  {
+   "id": "plt",
+   "name": "Platelets",
+   "aliases": [
+    "platelet count",
+    "platelets",
+    "plt"
+   ],
+   "unit": "x10^9/L",
+   "low": 150,
+   "high": 450,
+   "kb": "kb-dengue"
+  },
+  {
+   "id": "glu",
+   "name": "Fasting glucose",
+   "aliases": [
+    "fasting blood sugar",
+    "fasting glucose",
+    "fbs",
+    "fasting plasma glucose",
+    "glucose"
+   ],
+   "unit": "mg/dL",
+   "low": 70,
+   "high": 99,
+   "kb": "kb-diabetes"
+  },
+  {
+   "id": "hba1c",
+   "name": "HbA1c",
+   "aliases": [
+    "hba1c",
+    "hbalc",
+    "a1c",
+    "glycated haemoglobin",
+    "glycosylated hemoglobin"
+   ],
+   "unit": "%",
+   "low": 4.0,
+   "high": 5.6,
+   "kb": "kb-diabetes"
+  },
+  {
+   "id": "creat",
+   "name": "Creatinine",
+   "aliases": [
+    "creatinine",
+    "serum creatinine"
+   ],
+   "unit": "mg/dL",
+   "low": 0.6,
+   "high": 1.1,
+   "low_m": 0.7,
+   "high_m": 1.3,
+   "kb": "kb-ckd"
+  },
+  {
+   "id": "chol",
+   "name": "Total cholesterol",
+   "aliases": [
+    "total cholesterol",
+    "cholesterol"
+   ],
+   "unit": "mg/dL",
+   "low": 0,
+   "high": 199,
+   "kb": "kb-lipids"
+  },
+  {
+   "id": "ldl",
+   "name": "LDL cholesterol",
+   "aliases": [
+    "ldl cholesterol",
+    "ldl"
+   ],
+   "unit": "mg/dL",
+   "low": 0,
+   "high": 99,
+   "kb": "kb-lipids"
+  },
+  {
+   "id": "hdl",
+   "name": "HDL cholesterol",
+   "aliases": [
+    "hdl cholesterol",
+    "hdl"
+   ],
+   "unit": "mg/dL",
+   "low": 50,
+   "high": 999,
+   "low_m": 40,
+   "high_m": 999,
+   "kb": "kb-lipids"
+  },
+  {
+   "id": "tg",
+   "name": "Triglycerides",
+   "aliases": [
+    "triglycerides",
+    "triglyceride"
+   ],
+   "unit": "mg/dL",
+   "low": 0,
+   "high": 149,
+   "kb": "kb-lipids"
+  },
+  {
+   "id": "na",
+   "name": "Sodium",
+   "aliases": [
+    "sodium",
+    "na+"
+   ],
+   "unit": "mmol/L",
+   "low": 135,
+   "high": 145,
+   "kb": "kb-gastroenteritis"
+  },
+  {
+   "id": "k",
+   "name": "Potassium",
+   "aliases": [
+    "potassium",
+    "k+"
+   ],
+   "unit": "mmol/L",
+   "low": 3.5,
+   "high": 5.0,
+   "kb": "kb-ckd"
+  },
+  {
+   "id": "tsh",
+   "name": "TSH",
+   "aliases": [
+    "tsh",
+    "thyroid stimulating hormone"
+   ],
+   "unit": "mIU/L",
+   "low": 0.4,
+   "high": 4.0,
+   "kb": "kb-thyroid"
+  },
+  {
+   "id": "alt",
+   "name": "ALT (SGPT)",
+   "aliases": [
+    "alt",
+    "sgpt"
+   ],
+   "unit": "U/L",
+   "low": 7,
+   "high": 56,
+   "kb": "kb-nsaid-safety"
+  }
+ ],
+ "departments": [
+  "Cardiology",
+  "Dermatology",
+  "ENT",
+  "Emergency Medicine",
+  "Endocrinology",
+  "Gastroenterology",
+  "General Medicine",
+  "General Surgery",
+  "Neurology",
+  "Neurology / Stroke Unit",
+  "Obstetrics & Gynaecology",
+  "Orthopaedics",
+  "Psychiatry",
+  "Pulmonology",
+  "Urology"
+ ]
+}

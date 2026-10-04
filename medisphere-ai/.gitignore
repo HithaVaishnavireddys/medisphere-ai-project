@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.env
+*.db
+*.db-wal
+*.db-shm
+medisphere/data/visits_*.csv
+dist/
+.pytest_cache/
+.venv/
